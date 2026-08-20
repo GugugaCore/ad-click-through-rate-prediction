@@ -1,0 +1,30 @@
+# Data and intermediate exports
+data/
+*.csv
+*.parquet
+*.feather
+
+# Model artifacts (the original tracked checkpoint remains preserved)
+models/
+checkpoints/
+*.keras
+*.ckpt
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.json
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
